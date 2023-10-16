@@ -19,7 +19,7 @@ function App() {
                 <Route path='/faq' element={<Faq/>}/>
                 <Route path='/contacts' element={<ContactUs/>}/>
                 <Route path='/brief' element={<Brief/>}/>
-                <Route path='/' element={
+                <Route path='/vnv-solutions' element={
                     <>
                         <Banner/>
                         <WhyUs/>
