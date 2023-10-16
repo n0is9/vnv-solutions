@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vnv-solutions/static/css/main.36e73032.css",
+    "main.js": "/vnv-solutions/static/js/main.6559e992.js",
+    "static/media/project1.png": "/vnv-solutions/static/media/project1.10dff77ee50bd356ffdf.png",
+    "static/media/project2.png": "/vnv-solutions/static/media/project2.2455f15219ced57acf63.png",
+    "static/media/bg-1.jpg": "/vnv-solutions/static/media/bg-1.98b0852e567e43885aa4.jpg",
+    "static/media/logo.png": "/vnv-solutions/static/media/logo.6328696c9eac305aeaef.png",
+    "static/media/telegram.svg": "/vnv-solutions/static/media/telegram.4796a57a03248fb1a5fa71e28d5bdca7.svg",
+    "static/media/instagram.svg": "/vnv-solutions/static/media/instagram.a10e7a7734f69c0f68eff1680408bccb.svg",
+    "index.html": "/vnv-solutions/index.html",
+    "static/media/tiktok.svg": "/vnv-solutions/static/media/tiktok.1dac08fdb67d83b38556913adc1b1121.svg",
+    "static/media/linkedIn.svg": "/vnv-solutions/static/media/linkedIn.8d0d23d5cbee9bd1c31ff600b0522872.svg",
+    "static/media/facebook.svg": "/vnv-solutions/static/media/facebook.e9a4dc7ed05f9aac748ea5f925c34272.svg",
+    "main.36e73032.css.map": "/vnv-solutions/static/css/main.36e73032.css.map",
+    "main.6559e992.js.map": "/vnv-solutions/static/js/main.6559e992.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36e73032.css",
+    "static/js/main.6559e992.js"
+  ]
+}
