@@ -2,7 +2,7 @@ import {useForm} from "react-hook-form";
 import React, {useState} from "react";
 
 export default function ContactUsForm() {
-    const options = ['Email', 'Telegram', 'Phone Call'];
+    const options = ['Email', 'Telegram', 'Call'];
     const {
         register,
         handleSubmit,
@@ -21,13 +21,13 @@ export default function ContactUsForm() {
         <form onSubmit={handleSubmit(onSubmit)}
               className="max-w-2xl bg-vnv-milk px-6 mx-auto text-vnv-black py-4 rounded-3xl">
             <div className="mb-4">
-                <ul className="flex justify-between items-center text-vnv-black">
+                <ul className="flex justify-evenly items-center text-vnv-black">
                     {options.map((option) => (
                         <li
                             key={option}
                             className={`${
                                 contactOption === option ? 'text-vnv-milk bg-vnv-black' : 'text-vnv-black border border-vnv-black hover:scale-110'
-                            } rounded-3xl py-1 md:py-2 px-2 md:px-4 mx-2 md:mx-8 text-sm md:text-base ease-in-out duration-300 text-center cursor-pointer`}
+                            } rounded-3xl py-1 md:py-2 px-2 md:px-4 ml-2 first:ml-0 md:ml-8 text-xs md:text-base ease-in-out duration-300 text-center cursor-pointer`}
                             onClick={() => setContactOption(option)}
                         >
                             {option}
@@ -64,7 +64,7 @@ export default function ContactUsForm() {
                     </>
                 )}
 
-                {contactOption === "Phone Call" && (
+                {contactOption === "Call" && (
                     <>
                         <input
                             placeholder='Phone number'
@@ -102,7 +102,7 @@ export default function ContactUsForm() {
 
                 <div className='col-span-2 flex justify-center items-center'>
                     <input
-                        className=' border border-vnv-black text-vnv-black hover:text-vnv-milk font-bold hover:bg-vnv-black px-6 py-3 mt-4 rounded-3xl hover:scale-110 ease-in-out duration-300 cursor-pointer'
+                        className='text-xs md:text-base border border-vnv-black text-vnv-black hover:text-vnv-milk font-bold hover:bg-vnv-black px-6 py-3 mt-4 rounded-3xl hover:scale-110 ease-in-out duration-300 cursor-pointer'
                         type='submit'
                         value='SUBMIT AND SEND'
                     />

@@ -7,6 +7,8 @@
         color: #F8F8F8;
         background-color: #F8F8F8;
         font-family: 'montserrat', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
 }
 /* width */

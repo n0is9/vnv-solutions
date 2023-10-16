@@ -82,7 +82,7 @@ const Faq = () => {
                         </li>
                     ))}
                 </ul>
-                <p className='mb-8'>If you did not find the answer to your question here, then <Link
+                <p className='mb-8 mx-4'>If you did not find the answer to your question here, then <Link
                     className='underline' to={'/contacts'}>click here</Link> and leave us an extra question.</p>
             </div>
         </Container>

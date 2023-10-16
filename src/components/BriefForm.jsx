@@ -66,7 +66,7 @@ const BriefForm = () => {
         </div>
         <div className='col-span-2 flex justify-center items-center'>
             <input
-                className=' border border-vnv-black hover:text-vnv-milk font-bold hover:bg-vnv-black px-6 py-3 mt-4 rounded-3xl hover:scale-110 ease-in-out duration-300 cursor-pointer'
+                className='border border-vnv-black hover:text-vnv-milk font-bold text-xs md:text-base hover:bg-vnv-black px-6 py-3 mt-4 rounded-3xl hover:scale-110 ease-in-out duration-300 cursor-pointer'
                 type='submit'
                 value='SUBMIT BRIEF'
             />
