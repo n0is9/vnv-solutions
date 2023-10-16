@@ -21,10 +21,10 @@ function Header() {
                             <NavLink className={navLinkClasses} to='/vnv-solutions'>HOME</NavLink>
                         </li>
                         <li>
-                            <NavLink className={navLinkClasses} to='contacts'>CONTACTS</NavLink>
+                            <NavLink className={navLinkClasses} to='/contacts'>CONTACTS</NavLink>
                         </li>
                         <li>
-                            <NavLink className={navLinkClasses} to='faq'>FAQ</NavLink>
+                            <NavLink className={navLinkClasses} to='/faq'>FAQ</NavLink>
                         </li>
                     </ul>
                 </div>

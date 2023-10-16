@@ -19,7 +19,7 @@ export default function ContactUsForm() {
 
     return (
         <form onSubmit={handleSubmit(onSubmit)}
-              className="max-w-2xl bg-blue-500 mx-auto px-8 text-vnv-black py-4 bg-vnv-milk rounded-3xl">
+              className="max-w-2xl bg-vnv-milk px-6 mx-auto text-vnv-black py-4 rounded-3xl">
             <div className="mb-4">
                 <ul className="flex justify-between items-center text-vnv-black">
                     {options.map((option) => (

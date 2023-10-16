@@ -33,27 +33,26 @@ function Contacts() {
                 <div className='border-t-16 border-gray-400 rounded-t-3xl mb-4 bg-vnv-black'>
                     <p className='py-4 text-3xl text-center mb-4 font-light'>CONTACTS</p>
                 </div>
-                <div
-                    className='flex justify-evenly items-center border border-vnv-black rounded-b-3xl text-vnv-black p-8'>
-                    <div className=''>
-                        <div className='mb-4'>
+                <div className='flex flex-col md:flex-row justify-evenly items-center border border-vnv-black rounded-b-3xl text-vnv-black p-8'>
+                    <div>
+                        <div className='mb-4 text-center md:text-left'>
                             <Link target='_blank'
                                   to={'https://www.google.com.ua/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%9A%D0%B0%D1%80%D0%BB%D0%B0+%D0%9C%D1%96%D0%BA%D0%BB%D1%8C%D0%BE%D1%88%D0%B0,+7,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+79000/@49.7835065,24.0144865,16z/data=!4m6!3m5!1s0x473ae7d4b02a2c4d:0xb2af24fc0f878a18!8m2!3d49.7835443!4d24.0178518!16s%2Fg%2F11fm9tmkkk?hl=uk'}>
-                                <h1 className='text-3xl'>Ukraine, Lviv</h1>
-                                <p>Karla Miklʹosha Street</p>
+                                <h1 className='md:text-3xl text-xl'>Ukraine, Lviv</h1>
+                                <p className='text-xs md:text-base'>Karla Miklʹosha Street</p>
                             </Link>
                         </div>
-                        <NavLink className='hover:underline text-3xl'
-                                 to={'mailto:zaharchukartem9@gmail.com'}>team@vnv.solutions</NavLink>
+                        <p className='hover:underline md:text-3xl text-xl text-center md:text-left'><NavLink
+                                    to={'mailto:zaharchukartem9@gmail.com'}>team@vnv.solutions</NavLink></p>
 
-                        <ul className='mt-4'>
+                        <ul className='mt-4 flex justify-evenly items-center'>
                             {socialLinks.map((sl) => (
-                                <li className='hover:underline mb-2'><Link target='_blank'
+                                <li key={sl.socialNetwork} className='hover:underline mb-2 ml-2 first:ml-0 text-xs md:text-base'><Link target='_blank'
                                                                            to={sl.link}>{sl.socialNetwork}</Link></li>
                             ))}
                         </ul>
                     </div>
-                    <div>
+                    <div className='mx-16'>
                         <ContactUsForm/>
                     </div>
                 </div>
